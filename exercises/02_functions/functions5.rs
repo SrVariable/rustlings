@@ -10,6 +10,8 @@ fn main() {
     println!("The square of 3 is {}", answer);
 }
 
+// Fix removed semicolon num * num; -> num * num
+// Another way is adding "return": num * num -> return num * num;
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
