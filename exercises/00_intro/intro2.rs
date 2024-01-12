@@ -6,6 +6,6 @@
 // hint.
 
 fn main() {
-    // Fix misspelling printline! -> println!
+    // Fix misspelling printline!() -> println!()
     println!("Hello there!")
 }
